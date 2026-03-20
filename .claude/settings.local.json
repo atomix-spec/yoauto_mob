@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter pub:*)",
+      "Bash(flutter analyze:*)",
+      "Bash(curl -s --max-time 15 https://yoauto.online/api/v1/openapi.json)",
+      "Bash(grep -r \"applicationId\\\\|namespace\\\\|package\" /root/Documents/Projects/yoauto_mob/yoauto_app/android/app/build.gradle*)",
+      "Bash(./gradlew signingReport)"
+    ]
+  }
+}
